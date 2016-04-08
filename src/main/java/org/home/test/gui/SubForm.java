@@ -1,4 +1,4 @@
-package lv.home.test.gui;
+package org.home.test.gui;
 
 import org.springframework.stereotype.Component;
 

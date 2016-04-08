@@ -1,4 +1,4 @@
-package lv.home.test;
+package org.home.test;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

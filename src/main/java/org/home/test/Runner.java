@@ -1,7 +1,7 @@
-package lv.home.test;
+package org.home.test;
 
-import lv.home.test.gui.MainForm;
-import lv.home.test.service.AppInfoService;
+import org.home.test.gui.MainForm;
+import org.home.test.service.AppInfoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
