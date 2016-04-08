@@ -26,11 +26,17 @@ public class Runner implements CommandLineRunner {
     public void run(String... args) throws Exception {
         try {
             for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
+//                if ("Nimbus".equals(info.getName())) {
+//                    UIManager.setLookAndFeel(info.getClassName());
+//                    break;
+//                }
+                LOG.info("Look and feel: " + info.getName() + ", " + info.getClassName());
             }
+            UIManager.setLookAndFeel("com.jgoodies.looks.windows.WindowsLookAndFeel");
+//            UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+//            UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
+//            UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
+//            UIManager.setLookAndFeel("com.sun.java.swing.plaf.motif.MotifLookAndFeel88");
         }
         catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException ex) {
             LOG.error(ex.getMessage(), ex);

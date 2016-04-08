@@ -20,6 +20,8 @@ public class MainForm extends JFrame {
     private JTextField textField2;
     private JButton infoButton;
     private JButton showSubformButton;
+    private JComboBox comboBox1;
+    private JTree tree1;
 
     @Autowired
     private SubForm subForm;
