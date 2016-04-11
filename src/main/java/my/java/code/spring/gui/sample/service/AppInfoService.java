@@ -1,4 +1,4 @@
-package org.home.test.service;
+package my.java.code.spring.gui.sample.service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

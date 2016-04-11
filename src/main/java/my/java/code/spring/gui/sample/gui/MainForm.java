@@ -1,6 +1,6 @@
-package org.home.test.gui;
+package my.java.code.spring.gui.sample.gui;
 
-import org.home.test.service.AppInfoService;
+import my.java.code.spring.gui.sample.service.AppInfoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

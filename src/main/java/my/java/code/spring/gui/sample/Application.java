@@ -1,4 +1,4 @@
-package org.home.test;
+package my.java.code.spring.gui.sample;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
